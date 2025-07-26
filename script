@@ -21,7 +21,7 @@ function get_url(url)
     end
 end
 
-local password = get_url("https://raw.githubusercontent.com/Play123-Vip/00000/refs/heads/main/key?token=GHSAT0AAAAAADICNC54MBE4YOHVGVZSH33K2EFDYJA")
+local password = get_url("https://raw.githubusercontent.com/Play123-Vip/00000/refs/heads/main/key")
 
 local input = gg.prompt({"Masukkan Key:"})[1]
 if input ~= password then
