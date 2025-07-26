@@ -21,7 +21,7 @@ function get_url(url)
     end
 end
 
-local password = get_url("https://raw.githubusercontent.com/NantaXT/xt-data/refs/heads/main/pass.txt")
+local password = get_url("https://raw.githubusercontent.com/Play123-Vip/00000/refs/heads/main/key?token=GHSAT0AAAAAADICNC54MBE4YOHVGVZSH33K2EFDYJA")
 
 local input = gg.prompt({"Masukkan Key:"})[1]
 if input ~= password then
@@ -29,7 +29,7 @@ if input ~= password then
     os.exit()
 end
 
-gg.alert("🔥KEY WORK | XTKeyW17T6R8\n🎄☃️", "OK")
+gg.alert("🔥KEY WORK | XTKeyE36V9N0\n🎄☃️", "OK")
 
 function script()
   menuprincipal = gg.multiChoice({
