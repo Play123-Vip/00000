@@ -1,35 +1,23 @@
-gg.alert("🔥INTERNET OPEN 🔥\n", "⚡OK⚡")
+--[[ XT MODE PRO KEY otomatis harian ]]
+-- TELEGRAM @XTMODEPRO
 
-function insertKey()
-  local key = "https://sfl.gl/l07M4"
-  gg.toast("LINK KEY SCRIPT")
-  gg.copyText(key)
-end
+local today = os.date("%d%m%Y") -- misalnya: 26072025
+local salt = 987654
+local number = tonumber(today) + salt
+local key = "XTKey" .. tostring(number):sub(-6)
 
-menu = gg.choice({"COPY LINK KEY", "LOGIN"}, nil, "LINK | KEY 1Days New")
-if menu == 1 then
-  insertKey()
-end
+local input = gg.prompt({"🛡️ Masukkan KEY hari ini:"}, {""})[1]
 
-function get_url(url)
-    local http = gg.makeRequest(url)
-    if http.code == 200 then
-        return http.content
-    else
-        gg.alert("Gagal mengambil password dari URL!")
-        os.exit()
-    end
-end
-
-local password = get_url("https://raw.githubusercontent.com/Play123-Vip/00000/refs/heads/main/key")
-
-local input = gg.prompt({"Masukkan Key:"})[1]
-if input ~= password then
-    gg.alert("Key Salah!")
+if input == key then
+    gg.alert("✅ KEY BENAR! XT MODE PRO aktif...")
+    -- taruh script fitur kamu di bawah ini
+    gg.toast("🔥 Selamat datang di XT MODE PRO!")
+else
+    gg.alert("❌ KEY SALAH! Script keluar.")
     os.exit()
 end
 
-gg.alert("🔥KEY WORK | XTKeyE36V9N0\n🎄☃️", "OK")
+gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
 
 function script()
   menuprincipal = gg.multiChoice({
