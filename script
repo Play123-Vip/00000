@@ -5,7 +5,7 @@ function insertKey()
   gg.copyText(key)
 end
 
-menu = gg.choice({"COPY LINK | KEY NEW", "LOGIN"}, nil, "Select an option:")
+menu = gg.choice({"COPY LINK | KEY NEW", "LOGIN"}, nil, "XT MODE PRO")
 if menu == 1 then
   insertKey()
 end
