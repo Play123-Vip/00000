@@ -1,3 +1,15 @@
+local keyPromptTitle = gg.alert("KEY | SCRIPT | XT MODE PRO")
+function insertKey()
+  local key = "4"
+  gg.toast("KEY | SCRIPT | XT MODE PRO")
+  gg.copyText(key)
+end
+
+menu = gg.choice({"COPY LINK | KEY NEW", "LOGIN"}, nil, "Select an option:")
+if menu == 1 then
+  insertKey()
+end
+
 --[[ XT MODE PRO KEY otomatis harian ]]
 -- TELEGRAM @XTMODEPRO
 
