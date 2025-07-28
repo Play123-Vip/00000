@@ -1,6 +1,6 @@
 local keyPromptTitle = gg.alert("KEY | SCRIPT | XT MODE PRO")
 function insertKey()
-  local key = "https://sfl.gl/1FoQ"
+  local key = "https://sfl.gl/3B1WIJaH"
   gg.toast("KEY | SCRIPT | XT MODE PRO")
   gg.copyText(key)
 end
@@ -10,23 +10,20 @@ if menu == 1 then
   insertKey()
 end
 
---[[ XT MODE PRO KEY otomatis harian ]]
--- TELEGRAM @XTMODEPRO
+local kunci = "XTKey847816" -- ganti dengan key yang kamu mau
 
-local today = os.date("%d%m%Y") -- misalnya: 26072025
-local salt = 987654
-local number = tonumber(today) + salt
-local key = "XTKey" .. tostring(number):sub(-6)
+-- Tampilkan input ke user
+local input = gg.prompt({"Masukkan Key:"}, nil, {"text"})
 
-local input = gg.prompt({"🛡️ Masukkan KEY hari ini:"}, {""})[1]
-
-if input == key then
-    gg.alert("✅ KEY BENAR! XT MODE PRO aktif...")
-    -- taruh script fitur kamu di bawah ini
-    gg.toast("🔥 Selamat datang di XT MODE PRO!")
+-- Cek apakah input sesuai dengan key
+if input == nil then
+  gg.alert("❌ Tidak ada input. Keluar.")
+  os.exit()
+elseif input[1] == kunci then
+  gg.alert("✅ Key Benar! Lanjut.")
 else
-    gg.alert("❌ KEY SALAH! Script keluar.")
-    os.exit()
+  gg.alert("❌ Key Salah! Script akan keluar.")
+  os.exit()
 end
 
 gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
