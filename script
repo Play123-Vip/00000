@@ -10,21 +10,203 @@ if menu == 1 then
   insertKey()
 end
 
-local kunci = "XTKey847816" -- ganti dengan key yang kamu mau
+-- Dua key yang valid
+local key1 = "XTKeyDEV-0000"
+local key2 = "XTKey847816"
 
--- Tampilkan input ke user
+-- Minta user input satu key saja
 local input = gg.prompt({"Masukkan Key:"}, nil, {"text"})
 
--- Cek apakah input sesuai dengan key
 if input == nil then
   gg.alert("❌ Tidak ada input. Keluar.")
   os.exit()
-elseif input[1] == kunci then
-  gg.alert("✅ Key Benar! Lanjut.")
+elseif input[1] == key1 or input[1] == key2 then
+  gg.alert("✅ Key benar! Script aktif.")
 else
-  gg.alert("❌ Key Salah! Script akan keluar.")
+  gg.alert("❌ Key salah! Script keluar.")
   os.exit()
 end
+
+gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
+
+function script()
+  menuprincipal = gg.multiChoice({
+    "𝑩𝒀𝑷𝑨𝑺𝑺 𝑽𝑰𝑷",
+    "𝑨𝑵𝑻𝑬𝑵𝑨 ✋",
+    "𝑨𝑵𝑻𝑬𝑵𝑨 𝑯𝑬𝑨𝑫 🗼",
+    "𝑪𝑨𝑴𝑬𝑹𝑨 𝑯𝑨𝑪𝑲",
+    "𝑯𝑬𝑨𝑫𝑺𝑯𝑶𝑻 𝑩𝑶𝑫𝒀",
+    "𝑴𝑨𝑮𝑰𝑪 𝑩𝑼𝑳𝑳𝑬𝑻",
+    "𝑺𝑷𝑬𝑬𝑫 𝑹𝑼𝑵 𝟑𝑿",
+    "𝑰𝑵𝑽𝑰𝑺𝑰𝑩𝑳𝑬 𝑮𝑳𝑶𝑾𝑨𝑳𝑳",
+    "❌Exit🔙"
+  }, nil, "🎅🏻Script Vip Premium🎅🏻\n🌠TELEGRAM: XT MODE PRO 🌠\n☃️Youtube: XT MODE PRO ™☃️\n")
+
+  if menuprincipal == nil then
+    gg.toast("☃️Subscríbete XT MODE PRO ☃️")
+  else
+    if menuprincipal[1] then vip() end
+    if menuprincipal[2] then Antenna() end
+    if menuprincipal[3] then Antenna_Head() end
+    if menuprincipal[4] then CAMERA() end
+    if menuprincipal[5] then HEADSHOT() end
+    if menuprincipal[6] then Magic() end
+    if menuprincipal[7] then SP() end
+    if menuprincipal[8] then Invisible_Glowall() end
+    if menuprincipal[9] then
+      gg.setVisible(true)
+      os.exit(print("☃️ Subscribe XT MODE PRO "))
+    end
+  end
+end
+
+function vip()
+  gg.editAll("67109633", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+gg.searchNumber("h 5A 55 A5 E3 B5 51 CD E1")
+gg.getResults(155)
+gg.editAll("h 55 F5 25 E3", gg.TYPE_BYTE)
+gg.clearResults()  
+gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("h 69 00 6E 00 67 00 61 00 6D 00 65 00", gg.TYPE_BYTE)
+  gg.getResults(500)
+  gg.editAll("h650066006600650063007400", gg.TYPE_BYTE)
+  gg.clearResults()
+gg.toast('𝑩𝒀𝑷𝑨𝑺𝑺 𝑽𝑰𝑷 𝑨𝑲𝑻𝑰𝑭')
+end
+
+function Antenna()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('-0.02980032004;1:5', gg.TYPE_FLOAT)
+gg.getResults(16)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(8)
+gg.editAll('1909.4', gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('0.09043131769;1:5', gg.TYPE_FLOAT)
+gg.getResults(5)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(3)
+gg.editAll('1909.4', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("ANTENNA ✋ AKTIF")  
+end    
+
+function Antenna_Head()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('5.9762459e-7;1::5 ', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('3000', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('7.5538861e-7;1::5', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('3000', gg.TYPE_FLOAT)
+gg.clearResults()
+    gg.toast("𝑯𝑬𝑨𝑫 𝑨𝑵𝑻𝑬𝑵𝑵𝑨 𝑨𝒄𝒕𝒊𝒗𝒂𝒕𝒆𝒅")
+end
+
+function CAMERA()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("360;3.14159274101;-9.91623292e27::9", gg.TYPE_FLOAT)
+  gg.refineNumber("360", gg.TYPE_FLOAT)
+  gg.getResults(gg.getResultsCount())
+  gg.editAll("300", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;0;0;-1;0;-1;0;0;1;0;0;0;0;1::53", gg.TYPE_FLOAT)
+  gg.refineNumber("1", gg.TYPE_FLOAT)
+  gg.getResults(3)
+  gg.editAll("1;1;1.9", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("2;0;0;-1;0;-1;0;0;1;0;0;0;0;1::53", gg.TYPE_FLOAT)
+  gg.refineNumber("1", gg.TYPE_FLOAT)
+  gg.getResults(2)
+  gg.editAll("1;1.9", gg.TYPE_FLOAT)
+  gg.clearResults()
+    gg.toast("𝑪𝑨𝑴𝑬𝑹𝑨 𝑯𝑨𝑪𝑲 𝑨𝑲𝑻𝑰𝑭")
+end
+
+function HEADSHOT()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber(';bone_Spine')
+gg.getResults(gg.getResultsCount())
+gg.editAll(';bone_Head1', gg.TYPE_WORD)
+gg.clearResults()
+gg.searchNumber('-0.04462028295', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('-0.03999999911', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('-0.03881515563', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('0.05000000075', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('0.07869631797;0.99689865112;1;1;1::17', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('-1.5', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('0.98958933353F;1;1;1::17', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('-1.5', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('𝑯𝑬𝑨𝑫𝑺𝑯𝑶𝑻 𝑩𝑶𝑫𝒀 𝑨𝑲𝑻𝑰𝑭')
+end
+
+function Magic()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("h 4C 7B 5A BD 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 04 00 80 3F 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.getResults(1120)
+  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("h 47 7B 5A BD AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 04 00 80 3F 00 00 80 3F FE FF 7F 3F", gg.TYPE_BYTE)
+  gg.getResults(880)
+  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber(";Left_Weapon", gg.TYPE_WORD, nil, nil, nil, nil)
+  gg.getResults(1045)
+  gg.editAll(";Spine", gg.TYPE_WORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-1197037021;1892485702", gg.TYPE_DWORD)
+  gg.getResults(221)
+  gg.refineNumber("1892485702", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(109)
+  gg.setVisible(false)
+  gg.editAll("-1541408846", gg.TYPE_DWORD)
+  gg.processResume()
+  gg.setVisible(false)
+  gg.toast(" ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅️")
+end
+
+function SP() ----SPEED HACK
+gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('1.20000004768', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+    gg.editAll('20.780', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast('𝑺𝑷𝑬𝑬𝑫 𝑹𝑼𝑵 𝟑𝑿 𝑨𝑲𝑻𝑰𝑭')
+  end
+
+function Invisible_Glowall()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7209065;6357095;6619245;6357039;7536755;7536745;6357108;7602286;7602281;7143525;6881327;6619235;6357111;7077996;6422623;7209077;6619243;114:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1.0, 0)
+--[[ found: 0 ]]
+gg.getResults(99999.0, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 0 ]]
+gg.editAll(";effects/vfx_pet/vfx_petskill_robot", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("𝑰𝒏𝒗𝒊𝒔𝒊𝒃𝒍𝒆 𝑮𝒍𝒐𝒘𝒂𝒍𝒍 𝑾𝒂𝒍𝒍𝑯𝒂𝒄𝒌 𝑨𝑲𝑻𝑰𝑭")
+end
+
+while true do if gg.isVisible() then gg.setVisible(false) script() end end
 
 
 gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
