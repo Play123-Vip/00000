@@ -1,6 +1,6 @@
 local keyPromptTitle = gg.alert("KEY | SCRIPT | XT MODE PRO")
 function insertKey()
-  local key = "https://sfl.gl/3B1WIJaH"
+  local key = "https://sfl.gl/PeVE9Nt"
   gg.toast("KEY | SCRIPT | XT MODE PRO")
   gg.copyText(key)
 end
@@ -12,7 +12,7 @@ end
 
 -- Dua key yang valid
 local key1 = "XTKeyDEV-0000"
-local key2 = "XTKey847816"
+local key2 = "XTKey02773264"
 
 -- Minta user input satu key saja
 local input = gg.prompt({"Masukkan Key:"}, nil, {"text"})
