@@ -12,7 +12,7 @@ end
 
 -- Dua key yang valid
 local key1 = "XTKeyDEV-0000"
-local key2 = "XTKey02773264"
+local key2 = "XTKey8554224"
 
 -- Minta user input satu key saja
 local input = gg.prompt({"Masukkan Key:"}, nil, {"text"})
@@ -31,7 +31,6 @@ gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
 
 function script()
   menuprincipal = gg.multiChoice({
-    "𝑩𝒀𝑷𝑨𝑺𝑺 𝑽𝑰𝑷",
     "𝑨𝑵𝑻𝑬𝑵𝑨 ✋",
     "𝑨𝑵𝑻𝑬𝑵𝑨 𝑯𝑬𝑨𝑫 🗼",
     "𝑪𝑨𝑴𝑬𝑹𝑨 𝑯𝑨𝑪𝑲",
@@ -45,34 +44,18 @@ function script()
   if menuprincipal == nil then
     gg.toast("☃️Subscríbete XT MODE PRO ☃️")
   else
-    if menuprincipal[1] then vip() end
-    if menuprincipal[2] then Antenna() end
-    if menuprincipal[3] then Antenna_Head() end
-    if menuprincipal[4] then CAMERA() end
-    if menuprincipal[5] then HEADSHOT() end
-    if menuprincipal[6] then Magic() end
-    if menuprincipal[7] then SP() end
-    if menuprincipal[8] then Invisible_Glowall() end
-    if menuprincipal[9] then
+    if menuprincipal[1] then Antenna() end
+    if menuprincipal[2] then Antenna_Head() end
+    if menuprincipal[3] then CAMERA() end
+    if menuprincipal[4] then HEADSHOT() end
+    if menuprincipal[5] then Magic() end
+    if menuprincipal[6] then SP() end
+    if menuprincipal[7] then Invisible_Glowall() end
+    if menuprincipal[8] then
       gg.setVisible(true)
       os.exit(print("☃️ Subscribe XT MODE PRO "))
     end
   end
-end
-
-function vip()
-  gg.editAll("67109633", gg.TYPE_DWORD)
-gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
-gg.searchNumber("h 5A 55 A5 E3 B5 51 CD E1")
-gg.getResults(155)
-gg.editAll("h 55 F5 25 E3", gg.TYPE_BYTE)
-gg.clearResults()  
-gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("h 69 00 6E 00 67 00 61 00 6D 00 65 00", gg.TYPE_BYTE)
-  gg.getResults(500)
-  gg.editAll("h650066006600650063007400", gg.TYPE_BYTE)
-  gg.clearResults()
-gg.toast('𝑩𝒀𝑷𝑨𝑺𝑺 𝑽𝑰𝑷 𝑨𝑲𝑻𝑰𝑭')
 end
 
 function Antenna()
