@@ -1,6 +1,6 @@
 local keyPromptTitle = gg.alert("KEY | SCRIPT | XT MODE PRO")
 function insertKey()
-  local key = "https://sfl.gl/PeVE9Nt"
+  local key = "https://sfl.gl/OEbrj"
   gg.toast("KEY | SCRIPT | XT MODE PRO")
   gg.copyText(key)
 end
