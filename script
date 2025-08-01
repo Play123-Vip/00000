@@ -12,7 +12,7 @@ end
 
 -- Dua key yang valid
 local key1 = "XTKeyDEV-0000"
-local key2 = "XTKey02773264"
+local key2 = "XTKey1714"
 
 -- Minta user input satu key saja
 local input = gg.prompt({"Masukkan Key:"}, nil, {"text"})
