@@ -27,11 +27,13 @@ else
   os.exit()
 end
 
+
 gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
 
 function script()
   menuprincipal = gg.multiChoice({
     "HEADSHOT SAFE",
+    "MAGIC BULLET SAFE",    
     "❌Exit🔙"
   }, nil, "🎅🏻Script Vip Premium🎅🏻\n🌠TELEGRAM: XT MODE PRO 🌠\n☃️Youtube: XT MODE PRO ™☃️\n")
 
@@ -39,7 +41,8 @@ function script()
     gg.toast("☃️Subscríbete XT MODE PRO ☃️")
   else
     if menuprincipal[1] then vip() end
-    if menuprincipal[2] then
+    if menuprincipal[2] then Magic() end
+    if menuprincipal[3] then
       gg.setVisible(true)
       os.exit(print("☃️ Subscribe XT MODE PRO "))
     end
@@ -71,6 +74,34 @@ gg.getResults(gg.getResultsCount())
 gg.editAll('-1.5', gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast('HEADSHOT SAFE AKTIF')
+end
+
+function Magic()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("h 4C 7B 5A BD 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 04 00 80 3F 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.getResults(1120)
+  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("h 47 7B 5A BD AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 04 00 80 3F 00 00 80 3F FE FF 7F 3F", gg.TYPE_BYTE)
+  gg.getResults(880)
+  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber(";Left_Weapon", gg.TYPE_WORD, nil, nil, nil, nil)
+  gg.getResults(1045)
+  gg.editAll(";Spine", gg.TYPE_WORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-1197037021;1892485702", gg.TYPE_DWORD)
+  gg.getResults(221)
+  gg.refineNumber("1892485702", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(109)
+  gg.setVisible(false)
+  gg.editAll("-1541408846", gg.TYPE_DWORD)
+  gg.processResume()
+  gg.setVisible(false)
+  gg.toast(" ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅️")
 end
 
 while true do if gg.isVisible() then gg.setVisible(false) script() end end
