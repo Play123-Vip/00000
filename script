@@ -30,46 +30,110 @@ end
 
 gg.alert("🔥XT MODE PRO 🔥\n🎄☃️", "⚡XT MODE PRO MENU⚡")
 
-function script()
-  menuprincipal = gg.multiChoice({
-    "BYPASS SAFE",
-    "HEADSHOT SAFE",
-    "MAGIC BULLET SAFE",    
-    "❌Exit🔙"
-  }, nil, "🎅🏻Script Vip Premium🎅🏻\n🌠TELEGRAM: XT MODE PRO 🌠\n☃️Youtube: XT MODE PRO ™☃️\n")
+function main()
+    local menu = gg.multiChoice({
+        " VIP BYPASS 🥶 ",
+        " PRIMIUM BYPASS 🥶 ",
+        " 𝐌𝐀𝐆𝐈𝐂 𝐁𝐔𝐋𝐋𝐄𝐓 500% 🥶 ",
+        " 𝐁𝐎𝐃𝐘 𝐇𝐄𝐀𝐃𝐒𝐇𝐎𝐓 🥶 ",
+        " FIX LAG 🥶 ",
+        " INVISIBLE GLOOWALL 🥶 ",
+        " 𝐄𝐗𝐈𝐓 ",
+    }, nil, "SCRIPT VIP | XT MODE PRO OB50")
 
-  if menuprincipal == nil then
-    gg.toast("☃️Subscríbete XT MODE PRO ☃️")
-  else
-    if menuprincipal[1] then vip() end
-    if menuprincipal[2] then Headshot() end
-    if menuprincipal[3] then Magic() end
-    if menuprincipal[4] then
-      gg.setVisible(true)
-      os.exit(print("☃️ Subscribe XT MODE PRO "))
+    if menu == nil then
+        return
     end
-  end
+    
+    if menu[1] then VBP() end
+    if menu[2] then PBP() end
+    if menu[3] then MB() end
+    if menu[4] then BH() end
+    if menu[5] then FL() end
+    if menu[6] then IG() end
+    if menu[7] then EX() end
 end
 
-function vip()
+function VBP()
     gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
-    gg.searchNumber("h 0A 00 A0 E3 B0 01 CD E1")
-    gg.getResults(100)
-    gg.editAll("h 00 F0 20 E3", gg.TYPE_BYTE)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("h 69 00 6E 00 67 00 61 00 6D 00 65 00", gg.TYPE_BYTE)
-    gg.getResults(500)
-    gg.editAll("h650066006600650063007400", gg.TYPE_BYTE)
-    gg.clearResults()    
-gg.toast('BYPASS SAFE AKTIF')
+    gg.searchNumber("h 5A 55 A5 E3 B5 51 CD E1")
+    gg.getResults(155)
+    gg.editAll("h 55 F5 25 E3", gg.TYPE_BYTE)
+    gg.clearResults()  
+    gg.toast("VIP BYPASS✔️️")
 end
 
-function Headshot()
+function PBP()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("127B;69B;76B;70B;1B;1B;1B;0B::8", gg.TYPE_QWORD)
+gg.refineNumber("72", gg.TYPE_QWORD)
+gg.getResults("4")
+gg.editAll("70", gg.TYPE_QWORD)
+gg.toast("ANTI BAN🔒")
+gg.setRanges(16392) 
+gg.searchNumber("7Fr;45r;4Cr;46r;01r;01r;01r;00r::8", 1, false, 536870912, 2195501056, 2238693376) 
+gg.getResultsCount() 
+gg.clearResults()
+gg.toast("BYPASS V1.0❤️‍🩹")
+gg.setRanges(16384) 
+gg.searchNumber("-1.1888024e-10F;-0.00883197878F;-9,004,122,112.0F;4.8888483e24F;-0.0079164654F;1.0865689e-19F;1.0879452e-19F;4.1778991e34F:29", 16, false, 536870912, 0, -1) 
+gg.refineNumber("-1.1888024e-10;-0.00883197878", 16, false, 536870912, 0, -1) 
+gg.getResults(100) 
+gg.editAll("120", 16)
+gg.toast("BYPASS V2.0❤️‍🩹")
+gg.setRanges(32) 
+gg.searchNumber("\"1.3984959e-42;0.0;1.4012985e-45;7.0064923e-45;1.4012985e-42:17\"", 16, false, 536870912, 0, -1) 
+gg.getResults(100) 
+gg.editAll("\"0\"", 16) 
+gg.toast("BYPASS PINGER SUCCESSFUL") 
+gg.clearResults() 
+gg.clearResults() 
+gg.setRanges(16392) 
+gg.searchNumber("7Fr;45r;4Cr;46r;01r;01r;01r;00r::8", 1, false, 536870912, 2195501056, 2238693376) 
+gg.getResultsCount() 
+gg.clearResults() 
+gg.setRanges(16392) 
+gg.searchNumber("7Fr;45r;4Cr;46r;01r;01r;01r;00r::8", 1, false, 536870912, 2195501056, 2238693376) 
+gg.getResultsCount() 
+gg.clearResults() 
+os.remove("/storage/emulated/0/com.garena.msdk/guest100067.dat") 
+os.remove("/storage/emulated/0/com.garena.msdk") 
+os.remove("/storage/emulated/0/Android/data/com.dts.freefireth/files/reportnew.db") 
+os.remove("/storage/emulated/0/Android/data/com.dts.freefireth/files/ymrtc_log.txt") 
+gg.toast("BYPASS CLEAR ACCOUNT SUCCESSFUL ") 
+gg.setVisible(false) 
+end
+
+function MB()
+   gg.setRanges(32)
+    gg.searchNumber("h23AAA6B8460ACD70", 1)
+    gg.getResults(gg.getResultsCount())
+    gg.editAll("h23AAA6B8B2F71FA4", 1)
+    gg.clearResults()
+
+    gg.searchNumber("h477B5ABDAE5766BB5C1F48BA1BC0CF3B9CFB283DA2B117BDE4997F3F0400803F0000803FFEFF7F3F", 1)
+    gg.getResults(gg.getResultsCount())
+    gg.editAll("h8D07743FAE5766BB5C1F48BA1BC0CF3B9CFB283DA2B117BDE4997F3F000060410000604100006041", 1)
+    gg.clearResults()
+
+    gg.searchNumber("h4C7B5ABD0A5766BB1E2148BA2AC2CF3B96FB283DE8B117BDE3997F3F0400803F0100803FFCFF7F3F", 1)
+    gg.getResults(gg.getResultsCount())
+    gg.editAll("h1B0E743FAE5766BB5C1F48BA1BC0CF3B9CFB283DA2B117BDE4997F3F000060410000604100006041", 1)
+    gg.clearResults()
+
+    gg.searchNumber("h1000000062006F006E0065005F004C006500660074005F0057006500610070006F006E00", 1)
+    gg.getResults(gg.getResultsCount())
+    gg.editAll("h1000000062006F006E0065005F005300700069006E006500000000000000000000000000", 1)
+    gg.clearResults()
+
+    gg.toast("ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ 500% (on)")
+end
+
+function BH()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber(';bone_Spine')
 gg.getResults(gg.getResultsCount())
-gg.editAll(';bone_Neck', gg.TYPE_WORD)
+gg.editAll(';bone_Head1', gg.TYPE_WORD)
 gg.clearResults()
 gg.searchNumber('-0.04462028295', gg.TYPE_FLOAT)
 gg.getResults(gg.getResultsCount())
@@ -82,42 +146,54 @@ gg.clearResults()
 gg.searchNumber('0.07869631797;0.99689865112;1;1;1::17', gg.TYPE_FLOAT)
 gg.refineNumber('1', gg.TYPE_FLOAT)
 gg.getResults(gg.getResultsCount())
-gg.editAll('-0.1', gg.TYPE_FLOAT)
+gg.editAll('-1.5', gg.TYPE_FLOAT)
 gg.clearResults()
 gg.searchNumber('0.98958933353F;1;1;1::17', gg.TYPE_FLOAT)
 gg.refineNumber('1', gg.TYPE_FLOAT)
 gg.getResults(gg.getResultsCount())
 gg.editAll('-1.5', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('HEADSHOT SAFE AKTIF')
+gg.toast(" 𝐁𝐎𝐃𝐘 𝐇𝐄𝐀𝐃𝐒𝐇𝐎𝐓 (𝐎𝐍) 🔥 ")
 end
 
-function Magic()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("h 4C 7B 5A BD 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 04 00 80 3F 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
-  gg.getResults(1120)
-  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("h 47 7B 5A BD AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 04 00 80 3F 00 00 80 3F FE FF 7F 3F", gg.TYPE_BYTE)
-  gg.getResults(880)
-  gg.editAll("h 1B 0E 74 3F AE 57 66 BB 5C 1F 48 BA 1B C0 CF 3B 9C FB 28 3D A2 B1 17 BD E4 99 7F 3F 00 00 60 41 00 00 60 41 00 00 60 41 1B 0E 74 3F 0A 57 66 BB 1E 21 48 BA 2A C2 CF 3B 96 FB 28 3D E8 B1 17 BD E3 99 7F 3F 00 00 60 41 01 00 80 3F FC FF 7F 3F", gg.TYPE_BYTE)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber(";Left_Weapon", gg.TYPE_WORD, nil, nil, nil, nil)
-  gg.getResults(1045)
-  gg.editAll(";Spine", gg.TYPE_WORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-1197037021;1892485702", gg.TYPE_DWORD)
-  gg.getResults(221)
-  gg.refineNumber("1892485702", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(109)
-  gg.setVisible(false)
-  gg.editAll("-1541408846", gg.TYPE_DWORD)
-  gg.processResume()
-  gg.setVisible(false)
-  gg.toast(" ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅️")
+function FL()
+gg.setRanges(32)
+gg.searchNumber(" 5.5;1.0;0.75::9", 16, false, 536870912, 0, -1)
+gg.refineNumber("1", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("-999", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(" 5.5;0.75::9", 16, false, 536870912, 0, -1)
+gg.refineNumber("0.75", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("-999", 16)
+gg.clearResults()
+gg.toast("FIX LAG🥵")
 end
 
-while true do if gg.isVisible() then gg.setVisible(false) script() end end
+function IG()
+gg.setRanges(gg.REGION_ANONYMOUS)
+local searchValue = "7209065;6357095;6619245;6357039;7536755;7536745;6357108;7602286;7602281;7143525;6881327;6619235;6357111;7077996;6422623;7209077;6619243;114:69"
+local editValue = ";effects/vfx_pet/vfx_petskill_robot"
+gg.searchNumber(searchValue, gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+local results = gg.getResults(99999)
+if #results > 0 then
+gg.editAll(editValue, gg.TYPE_DWORD)
+gg.toast("🛡️ INVISIBLE GLOOWALL ACTIVATED ✅")
+else 
+    gg.toast("❌ No Results Found")
+    end
+end
+   
+function EX()
+print("JOIN TELEGRAM @XTMODEPRO")
+os.exit()
+end
+
+while true do
+    if gg.isVisible(true) then
+        gg.setVisible(false)
+        main()
+    end
+end
