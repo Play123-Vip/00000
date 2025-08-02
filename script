@@ -34,7 +34,7 @@ function main()
     local menu = gg.multiChoice({
         " VIP BYPASS 🥶 ",
         " PRIMIUM BYPASS 🥶 ",
-        " 𝐌𝐀𝐆𝐈𝐂 𝐁𝐔𝐋𝐋𝐄𝐓 500% 🥶 ",
+        " 𝐌𝐀𝐆𝐈𝐂 𝐁𝐔𝐋𝐋𝐄𝐓 🥶 ",
         " 𝐁𝐎𝐃𝐘 𝐇𝐄𝐀𝐃𝐒𝐇𝐎𝐓 🥶 ",
         " FIX LAG 🥶 ",
         " INVISIBLE GLOOWALL 🥶 ",
